@@ -1,3 +1,8 @@
+#ifndef RANDOM_C
+#define RANDOM_C
+
+extern double complex anarray[4] = {1 , 2 , 4 , 5};
+
 #include <stdio.h>
 #include <complex.h>
 
@@ -15,3 +20,6 @@ int main() {
     some_function(&c , &c2);
     return 0;
 }
+
+
+#endif
